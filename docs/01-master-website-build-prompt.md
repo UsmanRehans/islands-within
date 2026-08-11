@@ -57,6 +57,17 @@ Provide an intuitive SVG or canvas island builder. Users can:
 - add/edit/move/delete items and undo/redo actions;
 - name the island if they wish.
 
+Naming is optional, so every island also carries a **handle** — a factual ordinal the
+system supplies for reference: `Home Island`, `Second island`, `Third island`. The
+handle states position, never content, and is what `aria-label`, list-mode rows, export,
+and undo descriptions use when no name exists. It renders in placeholder styling and is
+replaced the moment the user types.
+
+**Never supply a content default** such as "Family" or "Work" — that asserts what
+categories a life comes in. The categories in the "Need a starting point?" hint *may* be
+made tappable to create a named island, because there the user chose it. A default is
+assertion; a pick is authorship.
+
 Prompt: “Give your island the size and shape you want it to have. Here, you have every ability and possibility. Add anything that is in your heart.” Keep an always-visible reassurance: “Simple is enough.”
 
 Include a small collapsible hint labelled “Need a starting point?” offering optional,

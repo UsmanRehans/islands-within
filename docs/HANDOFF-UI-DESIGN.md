@@ -81,12 +81,19 @@ is below, and if it solves, everything else inherits from it.
 
 The working canvas for stages 2 and 3. Show:
 
-- the canvas with a Home Island and three or four surrounding islands, some connected
-- the contextual side panel (roughly 30% width; canvas 70%)
-- selection state on an island — resize and rotate handles, visible keyboard focus
-- the item editor: adding a word, a symbol, a quality
-- the tool set, the undo/redo affordance, and the autosave indicator
-- **the course** across the top
+**Direct manipulation only — there is no tool palette and no side panel.** Noun first,
+then verb, and the verb appears where the noun is. Click open water and an island
+appears; click an island and its handles and actions ring the island itself; type to add
+an item; drag island to island to connect. No mode to enter, nothing to arm first.
+
+Show:
+
+- the full-bleed canvas with a Home Island and three or four surrounding islands, some
+  connected and some not
+- selection state on an island — resize and rotate handles, contextual actions at the
+  object, visible keyboard focus
+- adding an item: a word, a symbol, a quality
+- the only fixed chrome: undo/redo, the save indicator, **the course**, continue
 - the *"Need a starting point?"* hint, both collapsed and open
 
 ### Deliverable B — the same editor, mobile at 360px

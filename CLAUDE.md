@@ -122,6 +122,61 @@ prevent.
 **Corollary:** the shuffle seed is persisted with the session. A refresh must not
 re-deal the pairs.
 
+### A name is content; a handle is an address
+
+Naming an island is optional, but every island still needs something to be called — in
+list mode, in a screen reader, in an export, in an undo description. Those are two
+different strings with two different owners.
+
+- **Name** — the user's. Always chosen, never suggested, never prefilled.
+- **Handle** — the system's. Factual and ordinal: *Home Island*, *Second island*,
+  *Third island*. It states position, never content.
+
+The handle renders in placeholder styling so it never reads as committed content, and
+it is replaced the instant the user types. It is what `aria-label`, list-mode rows, and
+export use when there is no name.
+
+**Never a content default.** "Family", "Work", "Friends" would be the app asserting what
+categories a life comes in — a worse violation than a prefilled quality, because the
+island is the larger unit.
+
+**The hint may be clickable, and that is not the same thing.** Tapping *people* in
+"Need a starting point?" to create an island named `people` is authorship: the user
+chose it. A default is assertion; a pick is choice. Same string, opposite meaning.
+
+Safe by construction: only *items* become shells, so a handle can never enter the
+Meaning Maker.
+
+### The canvas is the interface. There is no tool palette.
+
+A place you edit through a menu is a document, not a place. This product is about
+making somewhere that feels like yours — direct manipulation is not a style preference
+here, it is the difference between operating software and being somewhere.
+
+**Noun first, then verb — and the verb appears where the noun is.**
+
+| Intent | Interaction |
+|---|---|
+| Add an island | Click open water. It appears there. No mode, no button |
+| Select | Click an island. Handles appear *on it*; contextual actions ring the island itself |
+| Add an item | Type while an island is selected |
+| Connect | Drag from one island to another. Click the connection to cycle its type |
+| Resize / rotate | Drag an edge / drag a corner |
+| Pan / zoom | Drag open water / scroll or pinch |
+
+That removes eleven of the fifteen tool labels in `docs/02`. What survives as chrome:
+**undo/redo, the save indicator, the course, and continue.** Four things, all small, all
+at the edges.
+
+**Why the palette existed, and why it can go:** it was a hedge — something for keyboard
+users to reach for on the canvas. List mode already solves that completely, as a full
+parallel path. The hedge produced the worst of both worlds: a menu-ish canvas *and* a
+list mode. Remove it and each path gets to be pure.
+
+**This changes interaction, not aesthetic.** "Handcrafted cartography at dawn" is
+unchanged. Modern here means direct, immediate, low-chrome — never sleek, never
+minimal-tech, never a change of visual direction.
+
 ### One map renderer, two framings
 
 Archipelago View (stage 4) and My Map (stage 7) draw the same thing for different

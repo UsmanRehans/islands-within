@@ -9,6 +9,9 @@
 - [ ] A shell is one named item; a quality never becomes its own shell.
 - [ ] A quality appears as a subtitle on its item's shell, never detached from it.
 - [ ] Unnamed drawings are invited to be named when created, not rejected later.
+- [ ] Unnamed islands carry a factual ordinal handle, never a content default.
+- [ ] No island, item, or quality is ever prefilled with suggested content.
+- [ ] Tapping a "Need a starting point?" category is the user's choice, not a default.
 - [ ] Gathering lets the user choose what to carry, with a suggestion and no ceiling.
 - [ ] Fewer than six carried shells prompts but never blocks.
 - [ ] Pairing is random and continues recursively to one final shell.

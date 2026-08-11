@@ -29,8 +29,11 @@ Use navy or dark teal for text on parchment. Validate all text/background pairs 
 ## Layout
 
 - Landing: full-bleed illustrated ocean with a narrow editorial text column.
-- Exercise desktop: 70% living canvas, 30% contextual panel.
-- Exercise mobile: canvas first, tools in a draggable bottom sheet.
+- **Exercise desktop: the canvas is full-bleed.** No persistent side panel and no tool
+  palette. Controls appear at the object being manipulated; the only fixed chrome is
+  undo/redo, the save indicator, the course, and continue — small, at the edges.
+- **Exercise mobile: the canvas is the screen.** Contextual actions appear at the
+  selected object. A sheet may rise for text entry, and must never cover the selection.
 - Reflection: calm reading column, 680–760px wide.
 - Completion: printable atlas spread with map left and selected meaning/reflection right.
 
@@ -48,15 +51,23 @@ Use navy or dark teal for text on parchment. Validate all text/background pairs 
 - **Privacy pebble:** a small persistent indicator reading “On this device.”
 - **Quiet celebration:** still water, widening light ring, no confetti or achievement badges.
 
-## Island builder behaviors
+## Island builder behaviours — direct manipulation only
 
-- Click/tap water to add an island.
-- Drag to position; handles resize and rotate.
-- Double-click or Enter opens island details.
-- Connections can be bridge, boat route, dotted current, radio/signal, or custom text.
-- Every visual action has a keyboard/list-mode equivalent.
-- Provide undo/redo and a visible autosave state.
-- Do not interpret distance, size, color, or connections.
+**Noun first, then verb, and the verb appears where the noun is.** There is no mode to
+enter and no tool to arm before acting.
+
+- Click open water — an island appears there.
+- Click an island — selected. Handles sit *on it*; contextual actions ring the island
+  itself, never a panel across the screen.
+- Type while an island is selected — an item is added.
+- Drag from island to island — a connection draws itself. Click it to cycle type:
+  bridge, boat route, dotted current, signal, or custom.
+- Drag an edge to resize, a corner to rotate, open water to pan; scroll or pinch to zoom.
+- Undo/redo and a visible autosave state are always available.
+- Do not interpret distance, size, colour, or connections.
+
+Keyboard and screen-reader users get **list mode** — a complete parallel path, not a
+half-accessible canvas. That is precisely why the canvas is free to be pure.
 
 ## Motion
 
@@ -73,6 +84,10 @@ Use simple hand-inked line icons with slightly imperfect pressure: shell, compas
 
 - At 360px, preserve 44x44px touch targets and never obscure the selected object with the tool sheet.
 - Long island names should wrap or truncate with accessible full text.
+- An unnamed island shows its **handle** (`Second island`) in placeholder styling —
+  italic, `ink-soft`, reduced opacity — so it never reads as content the user wrote.
+  The canvas may also show a separate invitation to name it; the handle is what
+  assistive technology and exports read.
 - The map must remain usable at 200% zoom.
 - PDF/print output should work in color and grayscale.
 
