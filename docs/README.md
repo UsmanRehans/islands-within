@@ -19,6 +19,8 @@ different aesthetic. **Provide all five together, every time.**
 | `03-visual-system-and-ui.md` | Palette, type, layout, motion, signature elements |
 | `04-graphic-generation-prompts.md` | Art direction; which assets to generate and which to author |
 | `05-quality-accessibility-and-safety.md` | The final gate. Audit before calling anything done |
+| `06-build-01-editor-and-list-mode.md` | **The current build.** Scope, operation set, data model, acceptance test |
+| `HANDOFF-UI-DESIGN.md` | Self-contained brief for a design session elsewhere |
 
 ## What the experience does
 
