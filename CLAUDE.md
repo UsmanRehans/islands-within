@@ -122,6 +122,32 @@ prevent.
 **Corollary:** the shuffle seed is persisted with the session. A refresh must not
 re-deal the pairs.
 
+### Instructions explain the process, never the content
+
+The person arriving at 11pm with no context needs real explanation. Giving it is not a
+thesis risk; giving the *wrong kind* is.
+
+- *"Add what belongs on it"* — process. Allowed.
+- *"Think about the people who matter to you"* — content. The app deciding what a life
+  is made of. Not allowed, however warmly phrased.
+
+**No worked example, ever.** A sample island labelled `Mum · work · the sea` would be
+the clearest instruction in the product and would anchor every user's first three items
+to ours. A worked example is the strongest content suggestion that exists. Demonstrate
+*mechanics* — a shape appearing when you click open water — never *content*.
+
+This is the second reason for the `docs/04` rule that no words are ever baked into
+generated art: it keeps the hero from modelling what belongs on an island.
+
+**The landing page must also reset the expectation of a result.** Someone who arrives
+believing this will analyse them experiences the ending — *"a meaning you made"* — as a
+let-down rather than the point. Say plainly, before they start, that nothing here
+interprets them. Managing that expectation up front is what lets the ending land.
+
+Instructional copy is delivered one line at a time, triggered by what the user just did,
+never as a wall. It never blocks, and it is always re-openable without leaving the
+stage.
+
 ### A name is content; a handle is an address
 
 Naming an island is optional, but every island still needs something to be called — in

@@ -29,6 +29,99 @@ Private on this device · No artistic skill needed · Pause anytime
 2. **Connect** — Add the islands around you and name the qualities they hold.
 3. **Discover** — Pair what you carry until one personally made meaning remains.
 
+## "See how it works" — the explanation
+
+Behind the secondary CTA on the landing page. Reachable again from any stage via a
+quiet **"What am I doing?"** link. Never a modal that blocks; never shown unbidden.
+
+Governed by the rule in `../CLAUDE.md`: explain the process, never the content. No
+worked example, no sample island, no illustrative items.
+
+### What this is
+
+Islands Within is a reflection exercise. You make a small map of what is in your life
+right now, then combine parts of that map until you arrive at one idea, in your own
+words.
+
+It takes about twenty to thirty-five minutes. You can stop anywhere and come back — it
+waits for you.
+
+It is not a test. There is no score, no type, no result, and nothing to get right.
+
+### What you'll do
+
+**Your Home Island.** You start with one island that is yours. You choose its shape and
+size and put on it whatever belongs there — words, symbols, quick drawings. There is no
+list to complete and no minimum.
+
+**The islands around you.** Then you add the islands nearby: anything you want around
+you but not on your own island. For each thing you place, you can name one word that
+describes it, if a word comes.
+
+**A pause.** You see the whole archipelago and answer a few questions about what you
+notice. Only what *you* notice — the questions never suggest an answer.
+
+**Choosing what to carry.** Not everything comes with you. You pick which of the things
+you wrote will go into the next part. Most people carry twelve to sixteen.
+
+**Making a meaning.** This is the heart of it. What you carried gets paired up at
+random, two at a time, and for each pair you write one thing that can hold them both.
+Then those pair up, and so on, until a single idea is left. Every word of it is yours —
+nothing is generated, suggested, or completed for you.
+
+The pairs are random on purpose, and there is no reshuffle. The surprise of two
+unrelated things sitting together is where the thinking happens, and being able to
+re-roll would turn a meaning you made into a result you shopped for.
+
+**Writing.** A set of reflection questions, all of them skippable, none of them timed.
+
+**Your map.** A keepsake you can keep, print, export, or delete.
+
+### What this will not do
+
+It will never tell you what your map means.
+
+Not the sizes, not the distances, not the colours, not what you put where, not what your
+final idea says about you. Nothing here is analysed and nothing is scored. The app
+arranges things and asks questions; every meaning in it is one you wrote.
+
+If you came looking for something that reads you and hands back an answer, this is not
+that — deliberately. The point is the opposite: to make a space where the only voice
+interpreting your life is yours.
+
+### Where your work lives
+
+On this device, in this browser, and nowhere else. Nothing is uploaded, nothing is
+analysed, and there is no account. Closing the tab is safe; clearing your browser data
+is not. You can export a copy at any time, and you can delete everything permanently
+whenever you want.
+
+### If this brings something up
+
+Reflection can surface strong feelings. Pause whenever you need to. Consider talking to
+someone you trust, or a qualified professional. This is an educational and reflective
+experience, not mental-health care and not emergency help.
+
+## First-run guidance in the editor
+
+One line at a time, in the quiet italic beneath the canvas. Each is triggered by what
+the user just did and replaced by the next. Never a wall, never blocking, never repeated
+once passed.
+
+| Trigger | Line |
+|---|---|
+| Stage opens, nothing made | Click anywhere on the water. |
+| First island created | This one is yours. Give it a name, or leave it — both are fine. |
+| First island named | Now add what belongs on it. Type a word and press enter. |
+| Second item added | As many or as few as you like. Simple is enough. |
+| Moving to stage 3 | These are the islands around you — anything you want nearby, but not on your own island. |
+| First surrounding item added | If a word describes it, add one. If none comes, move on. |
+| First connection drawn | You can connect islands, or leave them apart. Both say something; neither is better. |
+| Nothing done for 90 seconds | Take your time. Nothing here is timed. |
+
+Persistent, small, always available: **What am I doing?** — reopens the explanation
+above without leaving the stage or losing anything.
+
 ## Opening reassurance
 
 This is not about drawing well or making something beautiful. Use stick figures, simple shapes, words, or symbols. There are no right or wrong answers, and no one will evaluate your drawing. What matters is the meaning it holds for you.

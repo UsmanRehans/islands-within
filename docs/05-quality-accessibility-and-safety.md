@@ -55,6 +55,11 @@
 ## Emotional safety
 
 - [ ] The app says there are no right or wrong answers.
+- [ ] "See how it works" explains all seven stages, not a three-bullet summary.
+- [ ] The landing page states plainly that nothing here interprets the user.
+- [ ] "What am I doing?" is reachable from every stage without losing work.
+- [ ] Instructional copy explains process, never content.
+- [ ] No worked example, sample island, or illustrative item appears anywhere.
 - [ ] It never diagnoses, scores, profiles, or interprets the user.
 - [ ] It does not imply that island size, distance, color, or connections have fixed meanings.
 - [ ] Every reflection can be skipped or revisited.
