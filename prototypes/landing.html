@@ -1,0 +1,193 @@
+<title>Islands Within</title>
+<style>
+  :root{
+    --paper:#F6F0E4; --paper-deep:#EFE7D8; --ink:#17324D; --ink-soft:#5A6E80;
+    --tide:#397B7A; --tide-deep:#2F6362; --seaglass:#9BC7BD; --gold:#E9B95B;
+    --coral:#E8876A; --plum:#68475F; --midnight:#10293C;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    --sans:system-ui,-apple-system,"Segoe UI",Helvetica,sans-serif;
+    --col:min(680px,calc(100% - 48px));
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+       font-size:17px;line-height:1.72;-webkit-font-smoothing:antialiased}
+  .wrap{width:var(--col);margin:0 auto}
+  h1,h2,h3{font-family:var(--serif);font-weight:500;text-wrap:balance;margin:0}
+  p{margin:0 0 1.15em}
+  a{color:var(--tide-deep)}
+
+  header{position:relative;padding:0 0 96px;overflow:hidden}
+  #hero{display:block;width:100%;height:min(56vh,420px)}
+  .heroText{position:relative;margin-top:-40px}
+  h1{font-size:clamp(38px,6.4vw,62px);line-height:1.08;letter-spacing:-.012em;margin-bottom:22px}
+  .lede{font-family:var(--serif);font-size:clamp(19px,2.4vw,22px);line-height:1.6;color:var(--ink);
+        max-width:33em;margin-bottom:34px}
+  .cta{display:inline-block;background:var(--tide-deep);color:var(--paper);text-decoration:none;
+       font-family:var(--sans);font-size:16px;font-weight:600;padding:15px 30px;border-radius:10px;
+       border:0;cursor:pointer}
+  .cta:hover{background:#25514F}
+  .cta:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+  .facts{margin-top:22px;font-size:13.5px;color:var(--ink-soft);letter-spacing:.01em}
+
+  section{padding:16px 0 12px}
+  .rule{width:var(--col);margin:52px auto;height:1px;background:rgba(23,50,77,.15)}
+  h2{font-size:clamp(25px,3.4vw,31px);line-height:1.22;margin-bottom:20px;letter-spacing:-.006em}
+  h3{font-size:18.5px;margin-bottom:5px}
+  .kicker{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft);
+          margin-bottom:13px;font-family:var(--sans);font-weight:500}
+
+  .statement{font-family:var(--serif);font-size:clamp(24px,3.5vw,33px);line-height:1.38;
+             letter-spacing:-.008em;margin:0 0 20px}
+  .quiet{color:var(--ink-soft)}
+
+  ol.course{list-style:none;margin:0;padding:0 0 0 34px;position:relative}
+  ol.course:before{content:"";position:absolute;left:5px;top:9px;bottom:34px;width:0;
+                   border-left:1.5px dotted rgba(23,50,77,.38)}
+  ol.course li{position:relative;padding:0 0 26px}
+  ol.course li:before{content:"";position:absolute;left:-34px;top:8px;width:11px;height:11px;
+                      border-radius:50%;background:var(--paper);border:1.5px solid var(--ink)}
+  ol.course li.heart:before{background:var(--gold);width:13px;height:13px;left:-35px}
+  ol.course p{margin:0;color:var(--ink-soft);font-size:16px}
+  .aside{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:16px;
+         border-left:1.5px solid rgba(23,50,77,.28);padding-left:16px;margin-top:12px}
+
+  .close{padding:8px 0 104px;text-align:center}
+  .close h2{margin-bottom:26px}
+  footer{padding:0 0 72px;font-size:13.5px;color:var(--ink-soft);text-align:center}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<header>
+  <svg id="hero" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true"></svg>
+  <div class="wrap heroText">
+    <h1>Make space for your own voice.</h1>
+    <p class="lede">Build an island for what belongs to you. Place the people, places and
+      possibilities you want nearby. Then follow the meanings that emerge.</p>
+    <button class="cta" id="begin">Begin my archipelago</button>
+    <p class="facts">Private on this device · No artistic skill needed · Pause anytime</p>
+  </div>
+</header>
+
+<div class="rule"></div>
+
+<section class="wrap">
+  <p class="kicker">What this is</p>
+  <p>Islands Within is a reflection exercise. You make a small map of what is in your life
+    right now, then combine parts of that map until you arrive at one idea, in your own words.</p>
+  <p>It takes about twenty to thirty-five minutes. You can stop anywhere and come back —
+    it waits for you.</p>
+  <p class="statement">It is not a test. There is no score, no type, no result, and
+    nothing to get right.</p>
+</section>
+
+<div class="rule"></div>
+
+<section class="wrap">
+  <h2>What you&rsquo;ll do</h2>
+  <ol class="course">
+    <li><h3>Your Home Island</h3><p>You start with one island that is yours. You choose its
+      shape and size and put on it whatever belongs there — words, symbols, quick drawings.
+      There is no list to complete and no minimum.</p></li>
+    <li><h3>The islands around you</h3><p>Then you add the islands nearby: anything you want
+      around you but not on your own island. For each thing you place, you can name one word
+      that describes it, if a word comes.</p></li>
+    <li><h3>A pause</h3><p>You see the whole archipelago and answer a few questions about what
+      you notice. Only what you notice — the questions never suggest an answer.</p></li>
+    <li><h3>Choosing what to carry</h3><p>Not everything comes with you. You pick which of the
+      things you wrote will go into the next part. Most people carry twelve to sixteen.</p></li>
+    <li class="heart"><h3>Making a meaning</h3><p>This is the heart of it. What you carried gets
+      paired up at random, two at a time, and for each pair you write one thing that can hold
+      them both. Then those pair up, and so on, until a single idea is left. Every word of it
+      is yours — nothing is generated, suggested or completed for you.</p>
+      <p class="aside">The pairs are random on purpose, and there is no reshuffle. The surprise
+        of two unrelated things sitting together is where the thinking happens — and being able
+        to re-roll would turn a meaning you made into a result you shopped for.</p></li>
+    <li><h3>Writing</h3><p>A set of reflection questions, all of them skippable, none of them
+      timed.</p></li>
+    <li><h3>Your map</h3><p>A keepsake you can keep, print, export or delete.</p></li>
+  </ol>
+</section>
+
+<div class="rule"></div>
+
+<section class="wrap">
+  <h2>What this will not do</h2>
+  <p class="statement">It will never tell you what your map means.</p>
+  <p>Not the sizes, not the distances, not the colours, not what you put where, not what your
+    final idea says about you. Nothing here is analysed and nothing is scored. The app arranges
+    things and asks questions; every meaning in it is one you wrote.</p>
+  <p>If you came looking for something that reads you and hands back an answer, this is not
+    that — deliberately. The point is the opposite: to make a space where the only voice
+    interpreting your life is yours.</p>
+</section>
+
+<div class="rule"></div>
+
+<section class="wrap">
+  <p class="kicker">Where your work lives</p>
+  <p>On this device, in this browser, and nowhere else. Nothing is uploaded, nothing is
+    analysed, and there is no account. Closing the tab is safe; clearing your browser data is
+    not. You can export a copy at any time, and you can delete everything permanently whenever
+    you want.</p>
+  <p class="kicker" style="margin-top:38px">If this brings something up</p>
+  <p class="quiet">Reflection can surface strong feelings. Pause whenever you need to. Consider
+    talking to someone you trust, or a qualified professional. This is an educational and
+    reflective experience, not mental-health care and not emergency help.</p>
+</section>
+
+<section class="wrap close">
+  <h2>Nothing here needs to be beautiful.</h2>
+  <button class="cta" id="begin2">Begin my archipelago</button>
+  <p class="facts">About 20–35 minutes · Pause anytime · Private on this device</p>
+</section>
+
+<footer class="wrap">Islands Within</footer>
+
+<script>
+(function(){
+  var NS="http://www.w3.org/2000/svg", svg=document.getElementById("hero"), W=1200, H=420;
+  function rnd(s){var x=Math.sin(s)*10000;return x-Math.floor(x)}
+  function blob(cx,cy,r,seed){
+    var n=13,pts=[],i,a,rr;
+    for(i=0;i<n;i++){a=(i/n)*Math.PI*2;rr=r*(0.80+rnd(seed+i*7.31)*0.36);
+      pts.push([cx+Math.cos(a)*rr,cy+Math.sin(a)*rr*0.86]);}
+    var d="M"+pts[0][0].toFixed(1)+","+pts[0][1].toFixed(1);
+    for(i=0;i<n;i++){var p0=pts[(i-1+n)%n],p1=pts[i],p2=pts[(i+1)%n],p3=pts[(i+2)%n];
+      d+="C"+(p1[0]+(p2[0]-p0[0])/6).toFixed(1)+","+(p1[1]+(p2[1]-p0[1])/6).toFixed(1)+
+        " "+(p2[0]-(p3[0]-p1[0])/6).toFixed(1)+","+(p2[1]-(p3[1]-p1[1])/6).toFixed(1)+
+        " "+p2[0].toFixed(1)+","+p2[1].toFixed(1);}
+    return d+"Z";
+  }
+  function el(t,a){var e=document.createElementNS(NS,t);for(var k in a)e.setAttribute(k,a[k]);return e}
+  var defs=el("defs",{});
+  defs.innerHTML='<linearGradient id="w" x1="0" y1="0" x2="0.1" y2="1">'+
+    '<stop offset="0" stop-color="#9BC7BD" stop-opacity="0.16"/>'+
+    '<stop offset="0.62" stop-color="#397B7A" stop-opacity="0.30"/>'+
+    '<stop offset="1" stop-color="#F6F0E4" stop-opacity="0"/></linearGradient>'+
+    '<filter id="t"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" seed="7" result="n"/>'+
+    '<feDisplacementMap in="SourceGraphic" in2="n" scale="5" xChannelSelector="R" yChannelSelector="G"/></filter>';
+  svg.appendChild(defs);
+  svg.appendChild(el("rect",{x:0,y:0,width:W,height:H,fill:"url(#w)"}));
+  var i,y;
+  for(i=0;i<6;i++){y=40+i*62;
+    svg.appendChild(el("path",{d:"M0,"+y+" C300,"+(y-14)+" 900,"+(y+14)+" 1200,"+y,
+      fill:"none",stroke:"#10293C",'stroke-width':1,opacity:.09}));}
+  var isles=[[210,262,58,3.1],[420,188,40,11.7],[610,286,74,5.4],[830,206,46,19.2],
+             [1010,300,52,27.6],[700,132,29,33.8],[350,330,34,41.5]];
+  var links=[[0,2],[2,4],[1,3]];
+  links.forEach(function(L){var a=isles[L[0]],b=isles[L[1]];
+    svg.appendChild(el("path",{d:"M"+a[0]+","+a[1]+" Q"+((a[0]+b[0])/2)+","+(((a[1]+b[1])/2)-42)+" "+b[0]+","+b[1],
+      fill:"none",stroke:"#E9B95B",'stroke-width':2.4,opacity:.55,'stroke-linecap':"round"}));});
+  isles.forEach(function(o){
+    svg.appendChild(el("path",{d:blob(o[0],o[1]+5,o[2],o[3]),fill:"#17324D",opacity:.12,filter:"url(#t)"}));
+    svg.appendChild(el("path",{d:blob(o[0],o[1],o[2],o[3]),fill:"#F6F0E4",filter:"url(#t)"}));
+    svg.appendChild(el("path",{d:blob(o[0],o[1],o[2],o[3]),fill:"none",stroke:"#17324D",
+      'stroke-width':1.5,opacity:.8,filter:"url(#t)"}));
+    svg.appendChild(el("path",{d:blob(o[0],o[1],o[2]*0.72,o[3]+2),fill:"none",stroke:"#17324D",
+      'stroke-width':.9,opacity:.19}));
+  });
+  function go(){location.hash="#begin"}
+  document.getElementById("begin").addEventListener("click",go);
+  document.getElementById("begin2").addEventListener("click",go);
+})();
+</script>

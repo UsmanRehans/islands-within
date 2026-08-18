@@ -229,7 +229,7 @@ above them. Prefer "might," "notice," "if you wish," "to you." Never "This means
 > Build an island for what belongs to you. Place the people, places, and possibilities
 > you want nearby. Then follow the meanings that emerge.
 >
-> Primary: **Begin my archipelago** · Secondary: **See how it works**
+> One action only: **Begin my archipelago**. The explanation is the page itself, scrolled, not a drawer.
 >
 > Private on this device · No artistic skill needed · Pause anytime
 

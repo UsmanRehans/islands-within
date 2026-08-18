@@ -55,7 +55,8 @@
 ## Emotional safety
 
 - [ ] The app says there are no right or wrong answers.
-- [ ] "See how it works" explains all seven stages, not a three-bullet summary.
+- [ ] The landing page itself explains all seven stages — no drawer, no second route.
+- [ ] The landing page has exactly one call to action.
 - [ ] The landing page states plainly that nothing here interprets the user.
 - [ ] "What am I doing?" is reachable from every stage without losing work.
 - [ ] Instructional copy explains process, never content.

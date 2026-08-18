@@ -18,8 +18,10 @@ Warm, spacious, curious, and non-judgmental. Speak beside the user, never above 
 
 Build an island for what belongs to you. Place the people, places, and possibilities you want nearby. Then follow the meanings that emerge.
 
-**Primary action:** Begin my archipelago  
-**Secondary action:** See how it works
+**Primary action:** Begin my archipelago
+
+There is no secondary action. The explanation below *is* the page — see "The landing
+page is one page" below for why it is not a drawer.
 
 Private on this device · No artistic skill needed · Pause anytime
 
@@ -29,10 +31,20 @@ Private on this device · No artistic skill needed · Pause anytime
 2. **Connect** — Add the islands around you and name the qualities they hold.
 3. **Discover** — Pair what you carry until one personally made meaning remains.
 
-## "See how it works" — the explanation
+## The landing page is one page
 
-Behind the secondary CTA on the landing page. Reachable again from any stage via a
-quiet **"What am I doing?"** link. Never a modal that blocks; never shown unbidden.
+**There is no "See how it works" drawer.** The explanation below is the landing page
+itself: the visitor scrolls it, and at the end there is one call to action that starts
+the experience.
+
+Why: this content resets the expectation that the app will interpret them, and without
+that reset the ending lands as a let-down rather than the point. Content that
+load-bearing cannot sit behind a secondary button that most people never press.
+Optional placement for non-optional content is how a thesis quietly fails.
+
+One page, one action. The same copy is reachable from inside the experience via a quiet
+**"What am I doing?"** link — that is an in-app affordance with a different job, and it
+never blocks or loses work.
 
 Governed by the rule in `../CLAUDE.md`: explain the process, never the content. No
 worked example, no sample island, no illustrative items.
@@ -139,7 +151,12 @@ This is not about drawing well or making something beautiful. Use stick figures,
 
 ## Tool labels
 
-Add island · Add word · Add symbol · Add person · Add place · Add connection · Draw · Move · Resize · Undo · Redo · Zoom in · Zoom out · Center map · List view · Save and pause
+**Superseded.** The canvas has no tool palette — see the direct-manipulation ruling in
+`../CLAUDE.md`. Add, move, resize, connect and draw are all gestures on the object, not
+labelled controls.
+
+The only chrome that carries a label: **Undo · Redo · List view · Save and pause ·
+Continue**, plus the save state *"Saved on this device."*
 
 ## Gathering copy
 

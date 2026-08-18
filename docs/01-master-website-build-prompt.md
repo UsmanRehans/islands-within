@@ -42,17 +42,22 @@ motif from `04-graphic-generation-prompts.md`. Do not draw the course as tiny is
 
 ### 1. Arrival — “A quiet place to notice”
 
-Create a cinematic landing page with a softly animated dawn ocean and scattered paper-cut islands. Main copy: “Make space between what others feel and what you choose.” Supporting copy: “Build an inner archipelago, follow the meanings that emerge, and listen for your own voice.” Primary CTA: “Begin my archipelago.” Secondary CTA: “How it works.” Include “Private on this device” and “About 20–35 minutes; pause anytime.”
+Create a cinematic landing page with a softly animated dawn ocean and scattered paper-cut islands. Main copy: “Make space between what others feel and what you choose.” Supporting copy: “Build an inner archipelago, follow the meanings that emerge, and listen for your own voice.” Primary CTA: “Begin my archipelago.” **There is no secondary CTA.** Include “Private on this device” and “About 20–35 minutes; pause anytime.”
 
-The secondary CTA opens **"See how it works"** — a substantial explanation of the whole
-exercise, written out in full in `02-experience-and-content.md`. It is not a three-bullet
-summary. The person arriving with no context needs to know what kind of thing this is,
+**The landing page is one page and the explanation is the page** — not a drawer, not a
+modal, not a second route. The visitor scrolls a substantial explanation of the whole
+exercise (written in full in `02-experience-and-content.md`) and arrives at a single
+call to action. It is not a three-bullet summary, and it is not optional to reach. The person arriving with no context needs to know what kind of thing this is,
 what the seven stages actually involve, that the random pairing has no reshuffle and
 why, where their work lives, and — critically — **that nothing here will interpret
 them.** Someone who begins expecting a result will read the ending as a let-down rather
 than the point; resetting that expectation up front is what lets the ending land.
 
-The same content must be reachable from every stage via a small persistent
+Why one page: this copy resets the expectation that the app will interpret the user, and
+that reset is what lets the ending land. Content that load-bearing must not sit behind a
+secondary button most visitors never press.
+
+The same content must also be reachable from every stage via a small persistent
 **"What am I doing?"** link that opens without blocking or losing work.
 
 All instructional copy explains the **process, never the content**, and there is **no
